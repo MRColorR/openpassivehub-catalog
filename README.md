@@ -2,8 +2,8 @@
 
 Independent public catalog of earning apps, tools, links, addons, and
 related resources. Broader in scope than the M4B-specific repos: lists
-everything — whether or not it integrates with
-[Money4Band](https://github.com/MRColorR/money4band) — and provides a
+everything, whether or not it integrates with
+[Money4Band](https://github.com/MRColorR/money4band), and provides a
 GitHub Pages site with weighted referral-link rotation.
 
 ## Relationship to the other catalogs
@@ -68,4 +68,4 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## License
 
-GPL-3.0 — same as M4B core.
+GPL-3.0
