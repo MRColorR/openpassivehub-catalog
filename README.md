@@ -1,12 +1,20 @@
 # openpassivehub-catalog
 
+<!-- Project README scaffold: https://github.com/MRColorR/project-template -->
+
+[Overview](#overview) | [Getting started](#getting-started) | [Documentation](#documentation) | [Contributing](#contributing) | [Support](#support) | [License](#license)
+
+## Overview
+
 Independent public catalog of earning apps, tools, links, addons, and
 related resources. Broader in scope than the M4B-specific repos: lists
 everything, whether or not it integrates with
 [Money4Band](https://github.com/MRColorR/money4band), and provides a
 GitHub Pages site with weighted referral-link rotation.
 
-## Relationship to the other catalogs
+<a name="relationship-to-the-other-catalogs"></a>
+
+### Relationship to the other catalogs
 
 | Repo | Role |
 |------|------|
@@ -14,7 +22,15 @@ GitHub Pages site with weighted referral-link rotation.
 | [`MRColorR/money4band-community-catalog`](https://github.com/MRColorR/money4band-community-catalog) | Community apps + addons (M4B-runnable, opt-in) |
 | **`MRColorR/openpassivehub-catalog`** (this repo) | Full ecosystem index (apps, tools, VPNs, captcha-solvers, etc.) |
 
-## Layout
+## Getting started
+
+Review the repository files and the project-specific documentation below before configuring the project for your environment.
+
+## Documentation
+
+<a name="layout"></a>
+
+### Layout
 
 This repo uses the **same per-file layout** as the two M4B repos so
 entries can be promoted/demoted across repos by plain file rename:
@@ -46,7 +62,9 @@ run under M4B (external-only):
 }
 ```
 
-## Using this catalog from M4B
+<a name="using-this-catalog-from-m4b"></a>
+
+### Using this catalog from M4B
 
 Although this repo is informational, M4B can consume any entry whose
 `integration` is `"m4b"` by adding a remote source:
@@ -65,6 +83,18 @@ Although this repo is informational, M4B can consume any entry whose
 ## Contributing
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+Please include enough context to reproduce a problem or review a change.
+
+## Support
+
+Ko-fi supports Mattia / MrColorRain's work across projects.
+
+Support ongoing development, testing and documentation through [Ko-fi](https://ko-fi.com/mrcolorrain). One-time contributions and monthly memberships are welcome, and you can pledge above a tier's minimum.
+
+Your contribution helps me keep building, testing and sharing useful work. Explore the membership benefits on Ko-fi and choose the way you would like to support. Technical decisions remain independent.
+
+See the [supporters and sponsors directory](https://github.com/MRColorR/MRColorR/blob/main/SPONSORS.md) for acknowledgments.
 
 ## License
 
