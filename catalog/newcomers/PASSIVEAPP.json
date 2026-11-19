@@ -1,6 +1,6 @@
 {
   "name": "PASSIVEAPP",
-  "dashboard": "https://passiveapp.io/dashboard",
+  "dashboard": "https://dashboard.passiveapp.com/login/",
   "compose_config": {},
   "compose_config_proxy": {
     "network_mode": "service:proxy",
@@ -12,8 +12,8 @@
   "app_details": {
     "official_name": "PassiveApp",
     "publisher": "PassiveApp",
-    "official_url": "https://passiveapp.io",
-    "tos_url": "undocumented",
+    "official_url": "https://www.passiveapp.com/",
+    "tos_url": "https://www.passiveapp.com/terms-of-use",
     "status": "active",
     "device_limits": {
       "max_devices_per_account": "undocumented",
@@ -41,9 +41,11 @@
     },
     "earnings": {
       "model": "undocumented",
-      "min_payout": "undocumented",
+      "min_payout": "$5 in published terms; confirm in account",
       "payout_methods": [
-        "undocumented"
+        "PayPal",
+        "crypto",
+        "gift cards"
       ],
       "avg_monthly_residential_usd": "unknown",
       "avg_monthly_datacenter_usd": "unknown"
@@ -53,13 +55,16 @@
     "recommendation": "evaluate",
     "recommendation_reasoning": "Needs deeper research. No official Docker image found.",
     "confidence": "low",
-    "confidence_notes": "Minimal public documentation.",
-    "sources": [],
-    "last_verified": "2026-03-21"
+    "confidence_notes": "Current official download page offers Windows. Android, iOS and Linux are listed as coming soon. Public pages disagree on the payout minimum; check account-specific terms. No Docker integration was verified.",
+    "sources": [
+      "https://www.passiveapp.com/download",
+      "https://www.passiveapp.com/terms-of-use"
+    ],
+    "last_verified": "2026-11-19"
   },
   "referrals": [
     {
-      "url": "https://passiveapp.io",
+      "url": "https://www.passiveapp.com/",
       "contributor": "MRColorR"
     }
   ],

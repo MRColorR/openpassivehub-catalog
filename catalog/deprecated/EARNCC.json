@@ -14,7 +14,7 @@
     "publisher": "Earn.cc",
     "official_url": "https://earn.cc",
     "tos_url": "undocumented",
-    "status": "active",
+    "status": "deprecated",
     "device_limits": {
       "max_devices_per_account": "undocumented",
       "max_devices_per_ip": "undocumented",
@@ -55,16 +55,12 @@
     "confidence": "low",
     "confidence_notes": "Minimal public documentation.",
     "sources": [],
-    "last_verified": "2026-03-21"
+    "last_verified": "2026-11-19"
   },
-  "referrals": [
-    {
-      "url": "https://earn.cc",
-      "contributor": "MRColorR"
-    }
-  ],
+  "referrals": [],
   "user_config_template": {
     "enabled": false
   },
-  "integration": "external-only"
+  "integration": "external-only",
+  "additional_details": "Archived because earn.cc currently publishes no A or AAAA address records, confirmed using Cloudflare and Google DNS, and the website cannot be reached. This is an availability finding, not a confirmed permanent shutdown."
 }
