@@ -1,6 +1,6 @@
 {
   "name": "BYTEBENEFIT",
-  "dashboard": "https://bytebenefit.com/dashboard",
+  "dashboard": "https://dashboard.bytebenefit.io",
   "compose_config": {},
   "compose_config_proxy": {
     "network_mode": "service:proxy",
@@ -12,7 +12,7 @@
   "app_details": {
     "official_name": "ByteBenefit",
     "publisher": "ByteBenefit",
-    "official_url": "https://bytebenefit.com",
+    "official_url": "https://bytebenefit.io",
     "tos_url": "undocumented",
     "status": "active",
     "device_limits": {
@@ -53,13 +53,16 @@
     "recommendation": "evaluate",
     "recommendation_reasoning": "Bandwidth sharing app. No official Docker image found. Needs research.",
     "confidence": "low",
-    "confidence_notes": "Minimal public documentation.",
-    "sources": [],
-    "last_verified": "2026-03-21"
+    "confidence_notes": "Current website and account links verified. Remains external-only; Docker integration, enrollment and payouts were not tested.",
+    "sources": [
+      "https://bytebenefit.io",
+      "https://bytebenefit.io/faqs"
+    ],
+    "last_verified": "2026-11-19"
   },
   "referrals": [
     {
-      "url": "https://bytebenefit.com",
+      "url": "https://bytebenefit.io",
       "contributor": "MRColorR"
     }
   ],

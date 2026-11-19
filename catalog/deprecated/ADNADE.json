@@ -1,6 +1,6 @@
 {
   "name": "ADNADE",
-  "dashboard": "https://adnade.com/dashboard",
+  "dashboard": "",
   "compose_config": {},
   "compose_config_proxy": {
     "network_mode": "service:proxy",
@@ -14,7 +14,7 @@
     "publisher": "Adnade",
     "official_url": "https://adnade.com",
     "tos_url": "undocumented",
-    "status": "active",
+    "status": "deprecated",
     "device_limits": {
       "max_devices_per_account": "undocumented",
       "max_devices_per_ip": "undocumented",
@@ -50,21 +50,19 @@
     },
     "compose_layer_reasoning": "Conservative residential classification.",
     "install_limit_reasoning": "No documented caps.",
-    "recommendation": "evaluate",
-    "recommendation_reasoning": "Bandwidth sharing app. No official Docker image found. Needs research.",
+    "recommendation": "deprecate",
+    "recommendation_reasoning": "Archived after review on 2026-11-19: adnade.com is listed for sale by HugeDomains. No verified replacement for the cataloged bandwidth-sharing service was found. The similarly named adnade.net is a different advertising service.",
     "confidence": "low",
     "confidence_notes": "Minimal public documentation.",
-    "sources": [],
-    "last_verified": "2026-03-21"
+    "sources": [
+      "https://www.hugedomains.com/domain_profile.cfm?d=adnade.com"
+    ],
+    "last_verified": "2026-11-19"
   },
-  "referrals": [
-    {
-      "url": "https://adnade.com",
-      "contributor": "MRColorR"
-    }
-  ],
+  "referrals": [],
   "user_config_template": {
     "enabled": false
   },
-  "integration": "external-only"
+  "integration": "external-only",
+  "additional_details": "Archived after review on 2026-11-19: adnade.com is listed for sale by HugeDomains. No verified replacement for the cataloged bandwidth-sharing service was found. The similarly named adnade.net is a different advertising service."
 }
