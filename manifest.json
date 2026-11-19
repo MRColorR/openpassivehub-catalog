@@ -1,6 +1,6 @@
 {
   "app_config_version": 2.0,
-  "generated_at": "2026-11-19T11:29:04Z",
+  "generated_at": "2026-11-19T16:48:25Z",
   "source": "openpassivehub-catalog",
   "supported": {
     "entries": []
@@ -71,7 +71,7 @@
         },
         "referrals": [
           {
-            "url": "https://bytebenefit.io",
+            "url": "https://bytebenefit.io/invited?ref=FrrXA1",
             "contributor": "MRColorR"
           }
         ],
@@ -222,7 +222,7 @@
       },
       {
         "name": "EBESUCHER",
-        "dashboard": "https://www.ebesucher.com/surfbar/",
+        "dashboard": "https://www.ebesucher.com/dashboard",
         "compose_config": {},
         "compose_config_proxy": {
           "network_mode": "service:proxy",
@@ -263,7 +263,7 @@
           },
           "earnings": {
             "model": "autosurf points",
-            "min_payout": "undocumented",
+            "min_payout": "EUR 2",
             "payout_methods": [
               "undocumented"
             ],
@@ -276,12 +276,14 @@
           "recommendation_reasoning": "Autosurf platform, different model from bandwidth sharing. No official Docker image. Needs research.",
           "confidence": "low",
           "confidence_notes": "Minimal documentation. Different earning model from other M4B apps.",
-          "sources": [],
+          "sources": [
+            "https://www.ebesucher.com/dashboard"
+          ],
           "last_verified": "2026-03-21"
         },
         "referrals": [
           {
-            "url": "https://www.ebesucher.com",
+            "url": "https://www.ebesucher.com/?ref=mindlessnerds",
             "contributor": "MRColorR"
           }
         ],
