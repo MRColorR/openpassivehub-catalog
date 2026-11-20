@@ -18,8 +18,7 @@
     "device_limits": {
       "max_devices_per_account": "undocumented",
       "max_devices_per_ip": "undocumented",
-      "max_ips_per_account": "undocumented",
-      "notes": "Bandwidth sharing app."
+      "max_ips_per_account": "undocumented"
     },
     "ip_policy": {
       "residential": true,
@@ -31,8 +30,7 @@
       "adjacent_ips_accepted": "undocumented",
       "adjacent_ips_max": "undocumented",
       "ipv6": "undocumented",
-      "geo_restrictions": "none known",
-      "quality_notes": "Limited documentation."
+      "geo_restrictions": "none known"
     },
     "docker": {
       "image_official": false,
@@ -48,12 +46,7 @@
       "avg_monthly_residential_usd": "0.5-1",
       "avg_monthly_datacenter_usd": "unknown"
     },
-    "compose_layer_reasoning": "Conservative residential classification.",
-    "install_limit_reasoning": "No documented caps.",
-    "recommendation": "evaluate",
-    "recommendation_reasoning": "Bandwidth sharing app. No official Docker image found. Low earnings reported.",
     "confidence": "low",
-    "confidence_notes": "Minimal public documentation. Low reported earnings.",
     "sources": [],
     "last_verified": "2026-03-21"
   },
