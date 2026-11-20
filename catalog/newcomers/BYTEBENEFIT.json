@@ -19,7 +19,7 @@
       "max_devices_per_account": "undocumented",
       "max_devices_per_ip": "undocumented",
       "max_ips_per_account": "undocumented",
-      "notes": "Bandwidth sharing app."
+      "notes": "Official download page lists Android and Windows; no Docker earning client validated."
     },
     "ip_policy": {
       "residential": true,
@@ -40,8 +40,8 @@
       "last_update": "unknown"
     },
     "earnings": {
-      "model": "undocumented",
-      "min_payout": "undocumented",
+      "model": "per-GB (Coins)",
+      "min_payout": "3 Coins; confirm in dashboard",
       "payout_methods": [
         "undocumented"
       ],
@@ -56,7 +56,9 @@
     "confidence_notes": "Current website and account links verified. Remains external-only; Docker integration, enrollment and payouts were not tested.",
     "sources": [
       "https://bytebenefit.io",
-      "https://bytebenefit.io/faqs"
+      "https://bytebenefit.io/faqs",
+      "https://bytebenefit.io/download",
+      "https://bytebenefit.io/payouts"
     ],
     "last_verified": "2026-11-19"
   },

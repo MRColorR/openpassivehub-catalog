@@ -1,6 +1,6 @@
 {
   "name": "UPROCK",
-  "dashboard": "https://app.uprock.com",
+  "dashboard": "",
   "compose_config": {},
   "compose_config_proxy": {
     "network_mode": "service:proxy",
@@ -54,7 +54,9 @@
     "recommendation_reasoning": "AI-focused bandwidth network. No official Docker image found. Needs deeper research.",
     "confidence": "low",
     "confidence_notes": "Minimal public documentation.",
-    "sources": [],
+    "sources": [
+      "https://uprock.com/"
+    ],
     "last_verified": "2026-03-21"
   },
   "referrals": [
@@ -66,5 +68,6 @@
   "user_config_template": {
     "enabled": false
   },
-  "integration": "external-only"
+  "integration": "external-only",
+  "additional_details": "The public provider website responds, but the previously listed app.uprock.com dashboard does not resolve. Use the official site for current app/account access. No web dashboard or Money4Band Docker integration has been validated."
 }

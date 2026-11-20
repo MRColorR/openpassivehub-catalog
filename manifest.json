@@ -1,6 +1,6 @@
 {
   "app_config_version": 2.0,
-  "generated_at": "2026-11-19T18:05:33Z",
+  "generated_at": "2026-11-20T08:51:45Z",
   "source": "openpassivehub-catalog",
   "supported": {
     "entries": []
@@ -28,7 +28,7 @@
             "max_devices_per_account": "undocumented",
             "max_devices_per_ip": "undocumented",
             "max_ips_per_account": "undocumented",
-            "notes": "Bandwidth sharing app."
+            "notes": "Official download page lists Android and Windows; no Docker earning client validated."
           },
           "ip_policy": {
             "residential": true,
@@ -49,8 +49,8 @@
             "last_update": "unknown"
           },
           "earnings": {
-            "model": "undocumented",
-            "min_payout": "undocumented",
+            "model": "per-GB (Coins)",
+            "min_payout": "3 Coins; confirm in dashboard",
             "payout_methods": [
               "undocumented"
             ],
@@ -65,7 +65,9 @@
           "confidence_notes": "Current website and account links verified. Remains external-only; Docker integration, enrollment and payouts were not tested.",
           "sources": [
             "https://bytebenefit.io",
-            "https://bytebenefit.io/faqs"
+            "https://bytebenefit.io/faqs",
+            "https://bytebenefit.io/download",
+            "https://bytebenefit.io/payouts"
           ],
           "last_verified": "2026-11-19"
         },
@@ -165,7 +167,7 @@
           "official_name": "Ebesucher",
           "publisher": "Ebesucher",
           "official_url": "https://www.ebesucher.com",
-          "tos_url": "undocumented",
+          "tos_url": "https://www.ebesucher.com/terms",
           "status": "active",
           "device_limits": {
             "max_devices_per_account": "undocumented",
@@ -192,10 +194,11 @@
             "last_update": "unknown"
           },
           "earnings": {
-            "model": "autosurf points",
+            "model": "browser surfbar and advertising",
             "min_payout": "EUR 2",
             "payout_methods": [
-              "undocumented"
+              "PayPal",
+              "bank transfer"
             ],
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
@@ -207,7 +210,9 @@
           "confidence": "low",
           "confidence_notes": "Minimal documentation. Different earning model from other M4B apps.",
           "sources": [
-            "https://www.ebesucher.com/dashboard"
+            "https://www.ebesucher.com/earn-money",
+            "https://www.ebesucher.com/help",
+            "https://www.ebesucher.com/terms"
           ],
           "last_verified": "2026-03-21"
         },
@@ -220,7 +225,8 @@
         "user_config_template": {
           "enabled": false
         },
-        "integration": "external-only"
+        "integration": "external-only",
+        "additional_details": "eBesucher rewards browser surfing and advertising activity. It is not an unattended bandwidth-sharing Docker client. Use the official surfbar and help instructions; no Money4Band container integration has been validated."
       },
       {
         "name": "PASSIVEAPP",
@@ -299,7 +305,7 @@
       },
       {
         "name": "SALAD",
-        "dashboard": "https://app.salad.com",
+        "dashboard": "https://salad.com/login",
         "compose_config": {},
         "compose_config_proxy": {
           "network_mode": "service:proxy",
@@ -312,13 +318,13 @@
           "official_name": "Salad",
           "publisher": "Salad Technologies",
           "official_url": "https://salad.com",
-          "tos_url": "https://salad.com/terms",
+          "tos_url": "https://salad.com/terms/chefs/",
           "status": "active",
           "device_limits": {
             "max_devices_per_account": "undocumented",
             "max_devices_per_ip": "undocumented",
             "max_ips_per_account": "undocumented",
-            "notes": "GPU/CPU compute sharing platform. Different model from bandwidth sharing."
+            "notes": "Chef earning software requires 64-bit Windows 10/11. Hardware and network eligibility depend on workload."
           },
           "ip_policy": {
             "residential": true,
@@ -331,7 +337,7 @@
             "adjacent_ips_max": "undocumented",
             "ipv6": "undocumented",
             "geo_restrictions": "none known",
-            "quality_notes": "Primarily GPU/CPU compute sharing, not bandwidth. Residential only."
+            "quality_notes": "Chef workloads can include compute, bandwidth sharing and optional mining. Hardware, location and network eligibility depend on the workload."
           },
           "docker": {
             "image_official": false,
@@ -339,10 +345,13 @@
             "last_update": "unknown"
           },
           "earnings": {
-            "model": "compute-based",
+            "model": "GPU/CPU compute, bandwidth and optional mining",
             "min_payout": "undocumented",
             "payout_methods": [
-              "undocumented"
+              "PayPal",
+              "crypto rewards",
+              "prepaid cards",
+              "gift cards"
             ],
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
@@ -352,8 +361,11 @@
           "recommendation": "evaluate",
           "recommendation_reasoning": "GPU/CPU compute sharing platform. Different model from bandwidth apps. No official Docker image. Residential only.",
           "confidence": "low",
-          "confidence_notes": "Different earning model (compute, not bandwidth). Needs evaluation for M4B fit.",
-          "sources": [],
+          "confidence_notes": "Current Chef download and terms checked. Separate from SaladCloud customer container hosting; no Money4Band Docker earning integration validated.",
+          "sources": [
+            "https://salad.com/download/",
+            "https://salad.com/terms/chefs/"
+          ],
           "last_verified": "2026-03-21"
         },
         "referrals": [
@@ -365,11 +377,12 @@
         "user_config_template": {
           "enabled": false
         },
-        "integration": "external-only"
+        "integration": "external-only",
+        "additional_details": "Install the official Salad Chef app on 64-bit Windows 10/11. Available earnings can include GPU/CPU work, bandwidth and optional mining. SaladCloud customer container hosting is a different product; it is not an earning-client Docker integration for Money4Band."
       },
       {
         "name": "UPROCK",
-        "dashboard": "https://app.uprock.com",
+        "dashboard": "",
         "compose_config": {},
         "compose_config_proxy": {
           "network_mode": "service:proxy",
@@ -423,7 +436,9 @@
           "recommendation_reasoning": "AI-focused bandwidth network. No official Docker image found. Needs deeper research.",
           "confidence": "low",
           "confidence_notes": "Minimal public documentation.",
-          "sources": [],
+          "sources": [
+            "https://uprock.com/"
+          ],
           "last_verified": "2026-03-21"
         },
         "referrals": [
@@ -435,7 +450,8 @@
         "user_config_template": {
           "enabled": false
         },
-        "integration": "external-only"
+        "integration": "external-only",
+        "additional_details": "The public provider website responds, but the previously listed app.uprock.com dashboard does not resolve. Use the official site for current app/account access. No web dashboard or Money4Band Docker integration has been validated."
       }
     ]
   },

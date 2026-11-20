@@ -13,7 +13,7 @@
     "official_name": "Ebesucher",
     "publisher": "Ebesucher",
     "official_url": "https://www.ebesucher.com",
-    "tos_url": "undocumented",
+    "tos_url": "https://www.ebesucher.com/terms",
     "status": "active",
     "device_limits": {
       "max_devices_per_account": "undocumented",
@@ -40,10 +40,11 @@
       "last_update": "unknown"
     },
     "earnings": {
-      "model": "autosurf points",
+      "model": "browser surfbar and advertising",
       "min_payout": "EUR 2",
       "payout_methods": [
-        "undocumented"
+        "PayPal",
+        "bank transfer"
       ],
       "avg_monthly_residential_usd": "unknown",
       "avg_monthly_datacenter_usd": "unknown"
@@ -55,7 +56,9 @@
     "confidence": "low",
     "confidence_notes": "Minimal documentation. Different earning model from other M4B apps.",
     "sources": [
-      "https://www.ebesucher.com/dashboard"
+      "https://www.ebesucher.com/earn-money",
+      "https://www.ebesucher.com/help",
+      "https://www.ebesucher.com/terms"
     ],
     "last_verified": "2026-03-21"
   },
@@ -68,5 +71,6 @@
   "user_config_template": {
     "enabled": false
   },
-  "integration": "external-only"
+  "integration": "external-only",
+  "additional_details": "eBesucher rewards browser surfing and advertising activity. It is not an unattended bandwidth-sharing Docker client. Use the official surfbar and help instructions; no Money4Band container integration has been validated."
 }
