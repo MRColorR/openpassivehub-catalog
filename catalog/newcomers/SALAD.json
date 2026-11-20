@@ -19,7 +19,7 @@
       "max_devices_per_account": "undocumented",
       "max_devices_per_ip": "undocumented",
       "max_ips_per_account": "undocumented",
-      "notes": "Chef earning software requires 64-bit Windows 10/11. Hardware and network eligibility depend on workload."
+      "notes": "Requires 64-bit Windows 10/11."
     },
     "ip_policy": {
       "residential": true,
@@ -32,7 +32,7 @@
       "adjacent_ips_max": "undocumented",
       "ipv6": "undocumented",
       "geo_restrictions": "none known",
-      "quality_notes": "Chef workloads can include compute, bandwidth sharing and optional mining. Hardware, location and network eligibility depend on the workload."
+      "quality_notes": "Eligibility depends on hardware, location and workload."
     },
     "docker": {
       "image_official": false,

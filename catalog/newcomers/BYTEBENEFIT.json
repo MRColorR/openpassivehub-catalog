@@ -31,8 +31,7 @@
       "adjacent_ips_accepted": "undocumented",
       "adjacent_ips_max": "undocumented",
       "ipv6": "undocumented",
-      "geo_restrictions": "none known",
-      "quality_notes": "Limited documentation."
+      "geo_restrictions": "none known"
     },
     "docker": {
       "image_official": false,

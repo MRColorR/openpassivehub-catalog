@@ -1,6 +1,6 @@
 {
   "app_config_version": 2.0,
-  "generated_at": "2026-11-20T15:31:42Z",
+  "generated_at": "2026-11-20T15:39:28Z",
   "source": "openpassivehub-catalog",
   "supported": {
     "entries": []
@@ -40,8 +40,7 @@
             "adjacent_ips_accepted": "undocumented",
             "adjacent_ips_max": "undocumented",
             "ipv6": "undocumented",
-            "geo_restrictions": "none known",
-            "quality_notes": "Limited documentation."
+            "geo_restrictions": "none known"
           },
           "docker": {
             "image_official": false,
@@ -97,8 +96,7 @@
           "device_limits": {
             "max_devices_per_account": "undocumented",
             "max_devices_per_ip": "undocumented",
-            "max_ips_per_account": "undocumented",
-            "notes": "Bandwidth sharing app."
+            "max_ips_per_account": "undocumented"
           },
           "ip_policy": {
             "residential": true,
@@ -110,8 +108,7 @@
             "adjacent_ips_accepted": "undocumented",
             "adjacent_ips_max": "undocumented",
             "ipv6": "undocumented",
-            "geo_restrictions": "none known",
-            "quality_notes": "Limited documentation."
+            "geo_restrictions": "none known"
           },
           "docker": {
             "image_official": false,
@@ -246,8 +243,7 @@
             "adjacent_ips_accepted": "undocumented",
             "adjacent_ips_max": "undocumented",
             "ipv6": "undocumented",
-            "geo_restrictions": "none known",
-            "quality_notes": "Limited documentation available."
+            "geo_restrictions": "none known"
           },
           "docker": {
             "image_official": false,
@@ -256,7 +252,7 @@
           },
           "earnings": {
             "model": "undocumented",
-            "min_payout": "$5 in published terms; confirm in account",
+            "min_payout": "$5",
             "payout_methods": [
               "PayPal",
               "crypto",
@@ -304,7 +300,7 @@
             "max_devices_per_account": "undocumented",
             "max_devices_per_ip": "undocumented",
             "max_ips_per_account": "undocumented",
-            "notes": "Chef earning software requires 64-bit Windows 10/11. Hardware and network eligibility depend on workload."
+            "notes": "Requires 64-bit Windows 10/11."
           },
           "ip_policy": {
             "residential": true,
@@ -317,7 +313,7 @@
             "adjacent_ips_max": "undocumented",
             "ipv6": "undocumented",
             "geo_restrictions": "none known",
-            "quality_notes": "Chef workloads can include compute, bandwidth sharing and optional mining. Hardware, location and network eligibility depend on the workload."
+            "quality_notes": "Eligibility depends on hardware, location and workload."
           },
           "docker": {
             "image_official": false,
@@ -447,8 +443,7 @@
           "device_limits": {
             "max_devices_per_account": "undocumented",
             "max_devices_per_ip": "undocumented",
-            "max_ips_per_account": "undocumented",
-            "notes": "Bandwidth sharing app."
+            "max_ips_per_account": "undocumented"
           },
           "ip_policy": {
             "residential": true,
@@ -460,8 +455,7 @@
             "adjacent_ips_accepted": "undocumented",
             "adjacent_ips_max": "undocumented",
             "ipv6": "undocumented",
-            "geo_restrictions": "none known",
-            "quality_notes": "Limited documentation."
+            "geo_restrictions": "none known"
           },
           "docker": {
             "image_official": false,
@@ -510,8 +504,7 @@
           "device_limits": {
             "max_devices_per_account": "undocumented",
             "max_devices_per_ip": "undocumented",
-            "max_ips_per_account": "undocumented",
-            "notes": "Bandwidth sharing platform."
+            "max_ips_per_account": "undocumented"
           },
           "ip_policy": {
             "residential": true,
@@ -523,8 +516,7 @@
             "adjacent_ips_accepted": "undocumented",
             "adjacent_ips_max": "undocumented",
             "ipv6": "undocumented",
-            "geo_restrictions": "none known",
-            "quality_notes": "Limited documentation."
+            "geo_restrictions": "none known"
           },
           "docker": {
             "image_official": false,

@@ -31,8 +31,7 @@
       "adjacent_ips_accepted": "undocumented",
       "adjacent_ips_max": "undocumented",
       "ipv6": "undocumented",
-      "geo_restrictions": "none known",
-      "quality_notes": "Limited documentation available."
+      "geo_restrictions": "none known"
     },
     "docker": {
       "image_official": false,
@@ -41,7 +40,7 @@
     },
     "earnings": {
       "model": "undocumented",
-      "min_payout": "$5 in published terms; confirm in account",
+      "min_payout": "$5",
       "payout_methods": [
         "PayPal",
         "crypto",
