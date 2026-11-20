@@ -1,6 +1,6 @@
 {
   "name": "UPROCK",
-  "dashboard": "",
+  "dashboard": "https://app.uprock.com",
   "compose_config": {},
   "compose_config_proxy": {
     "network_mode": "service:proxy",
@@ -69,5 +69,5 @@
     "enabled": false
   },
   "integration": "external-only",
-  "additional_details": "The public provider website responds, but the previously listed app.uprock.com dashboard does not resolve. Use the official site for current app/account access. No web dashboard or Money4Band Docker integration has been validated."
+  "additional_details": "The public provider website responds, but the historical app.uprock.com dashboard does not resolve. Its link is retained for reference. Use the official site for current app/account access. No currently working web dashboard or Money4Band Docker integration has been validated."
 }
