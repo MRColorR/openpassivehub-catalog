@@ -1,6 +1,6 @@
 {
   "app_config_version": 2.0,
-  "generated_at": "2026-11-20T09:00:17Z",
+  "generated_at": "2026-11-20T15:31:42Z",
   "source": "openpassivehub-catalog",
   "supported": {
     "entries": []
@@ -9,7 +9,7 @@
     "entries": [
       {
         "name": "BYTEBENEFIT",
-        "dashboard": "https://dashboard.bytebenefit.io",
+        "dashboard": "https://dashboard.bytebenefit.io/overview",
         "compose_config": {},
         "compose_config_proxy": {
           "network_mode": "service:proxy",
@@ -28,7 +28,7 @@
             "max_devices_per_account": "undocumented",
             "max_devices_per_ip": "undocumented",
             "max_ips_per_account": "undocumented",
-            "notes": "Official download page lists Android and Windows; no Docker earning client validated."
+            "notes": "Android and Windows clients."
           },
           "ip_policy": {
             "residential": true,
@@ -50,19 +50,14 @@
           },
           "earnings": {
             "model": "per-GB (Coins)",
-            "min_payout": "3 Coins; confirm in dashboard",
+            "min_payout": "30,000 Coins ($3)",
             "payout_methods": [
               "undocumented"
             ],
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
           },
-          "compose_layer_reasoning": "Conservative residential classification.",
-          "install_limit_reasoning": "No documented caps.",
-          "recommendation": "evaluate",
-          "recommendation_reasoning": "Bandwidth sharing app. No official Docker image found. Needs research.",
           "confidence": "low",
-          "confidence_notes": "Current website and account links verified. Remains external-only; Docker integration, enrollment and payouts were not tested.",
           "sources": [
             "https://bytebenefit.io",
             "https://bytebenefit.io/faqs",
@@ -132,12 +127,7 @@
             "avg_monthly_residential_usd": "0.5-1",
             "avg_monthly_datacenter_usd": "unknown"
           },
-          "compose_layer_reasoning": "Conservative residential classification.",
-          "install_limit_reasoning": "No documented caps.",
-          "recommendation": "evaluate",
-          "recommendation_reasoning": "Bandwidth sharing app. No official Docker image found. Low earnings reported.",
           "confidence": "low",
-          "confidence_notes": "Minimal public documentation. Low reported earnings.",
           "sources": [],
           "last_verified": "2026-03-21"
         },
@@ -154,7 +144,7 @@
       },
       {
         "name": "EBESUCHER",
-        "dashboard": "https://www.ebesucher.com/dashboard",
+        "dashboard": "https://www.ebesucher.com/statistik",
         "compose_config": {},
         "compose_config_proxy": {
           "network_mode": "service:proxy",
@@ -203,12 +193,7 @@
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
           },
-          "compose_layer_reasoning": "Autosurf platform. Conservative residential classification.",
-          "install_limit_reasoning": "No documented caps.",
-          "recommendation": "evaluate",
-          "recommendation_reasoning": "Autosurf platform, different model from bandwidth sharing. No official Docker image. Needs research.",
           "confidence": "low",
-          "confidence_notes": "Minimal documentation. Different earning model from other M4B apps.",
           "sources": [
             "https://www.ebesucher.com/earn-money",
             "https://www.ebesucher.com/help",
@@ -226,7 +211,7 @@
           "enabled": false
         },
         "integration": "external-only",
-        "additional_details": "eBesucher rewards browser surfing and advertising activity. It is not an unattended bandwidth-sharing Docker client. Use the official surfbar and help instructions; no Money4Band container integration has been validated."
+        "additional_details": "Use the official browser surfbar to earn from surfing and advertising. Standalone installation."
       },
       {
         "name": "PASSIVEAPP",
@@ -249,7 +234,7 @@
             "max_devices_per_account": "undocumented",
             "max_devices_per_ip": "undocumented",
             "max_ips_per_account": "undocumented",
-            "notes": "Passive income app. Limited public documentation."
+            "notes": "Windows client."
           },
           "ip_policy": {
             "residential": true,
@@ -280,12 +265,7 @@
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
           },
-          "compose_layer_reasoning": "Conservative residential classification.",
-          "install_limit_reasoning": "No documented caps.",
-          "recommendation": "evaluate",
-          "recommendation_reasoning": "Needs deeper research. No official Docker image found.",
           "confidence": "low",
-          "confidence_notes": "Current official download page offers Windows. Android, iOS and Linux are listed as coming soon. Public pages disagree on the payout minimum; check account-specific terms. No Docker integration was verified.",
           "sources": [
             "https://www.passiveapp.com/download",
             "https://www.passiveapp.com/terms-of-use"
@@ -356,12 +336,7 @@
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
           },
-          "compose_layer_reasoning": "Residential only per online data. VPS/DC explicitly not supported.",
-          "install_limit_reasoning": "No documented caps.",
-          "recommendation": "evaluate",
-          "recommendation_reasoning": "GPU/CPU compute sharing platform. Different model from bandwidth apps. No official Docker image. Residential only.",
           "confidence": "low",
-          "confidence_notes": "Current Chef download and terms checked. Separate from SaladCloud customer container hosting; no Money4Band Docker earning integration validated.",
           "sources": [
             "https://salad.com/download/",
             "https://salad.com/terms/chefs/"
@@ -378,7 +353,7 @@
           "enabled": false
         },
         "integration": "external-only",
-        "additional_details": "Install the official Salad Chef app on 64-bit Windows 10/11. Available earnings can include GPU/CPU work, bandwidth and optional mining. SaladCloud customer container hosting is a different product; it is not an earning-client Docker integration for Money4Band."
+        "additional_details": "Install Salad Chef on 64-bit Windows 10/11. Workloads include GPU/CPU computing, bandwidth sharing and optional mining."
       },
       {
         "name": "UPROCK",
@@ -430,12 +405,7 @@
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
           },
-          "compose_layer_reasoning": "Conservative residential classification. No IP policy documentation.",
-          "install_limit_reasoning": "No documented caps.",
-          "recommendation": "evaluate",
-          "recommendation_reasoning": "AI-focused bandwidth network. No official Docker image found. Needs deeper research.",
           "confidence": "low",
-          "confidence_notes": "Minimal public documentation.",
           "sources": [
             "https://uprock.com/"
           ],
@@ -451,7 +421,7 @@
           "enabled": false
         },
         "integration": "external-only",
-        "additional_details": "The public provider website responds, but the historical app.uprock.com dashboard does not resolve. Its link is retained for reference. Use the official site for current app/account access. No currently working web dashboard or Money4Band Docker integration has been validated."
+        "additional_details": "Install the official UpRock app. Standalone installation."
       }
     ]
   },
@@ -507,12 +477,7 @@
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
           },
-          "compose_layer_reasoning": "Conservative residential classification.",
-          "install_limit_reasoning": "No documented caps.",
-          "recommendation": "deprecate",
-          "recommendation_reasoning": "Archived after review on 2026-11-19: adnade.com is listed for sale by HugeDomains. No verified replacement for the cataloged bandwidth-sharing service was found. The similarly named adnade.net is a different advertising service.",
           "confidence": "low",
-          "confidence_notes": "Minimal public documentation.",
           "sources": [
             "https://www.hugedomains.com/domain_profile.cfm?d=adnade.com"
           ],
@@ -523,7 +488,7 @@
           "enabled": false
         },
         "integration": "external-only",
-        "additional_details": "Archived after review on 2026-11-19: adnade.com is listed for sale by HugeDomains. No verified replacement for the cataloged bandwidth-sharing service was found. The similarly named adnade.net is a different advertising service."
+        "additional_details": "Archived: domain listed for sale."
       },
       {
         "name": "EARNCC",
@@ -575,12 +540,7 @@
             "avg_monthly_residential_usd": "unknown",
             "avg_monthly_datacenter_usd": "unknown"
           },
-          "compose_layer_reasoning": "Conservative residential classification.",
-          "install_limit_reasoning": "No documented caps.",
-          "recommendation": "evaluate",
-          "recommendation_reasoning": "Bandwidth sharing platform. No official Docker image found. Needs research.",
           "confidence": "low",
-          "confidence_notes": "Minimal public documentation.",
           "sources": [],
           "last_verified": "2026-11-19"
         },
@@ -589,7 +549,7 @@
           "enabled": false
         },
         "integration": "external-only",
-        "additional_details": "Archived because earn.cc currently publishes no A or AAAA address records, confirmed using Cloudflare and Google DNS, and the website cannot be reached. This is an availability finding, not a confirmed permanent shutdown."
+        "additional_details": "Archived: website unavailable."
       }
     ]
   }

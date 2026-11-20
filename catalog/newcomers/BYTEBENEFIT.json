@@ -1,6 +1,6 @@
 {
   "name": "BYTEBENEFIT",
-  "dashboard": "https://dashboard.bytebenefit.io",
+  "dashboard": "https://dashboard.bytebenefit.io/overview",
   "compose_config": {},
   "compose_config_proxy": {
     "network_mode": "service:proxy",
@@ -19,7 +19,7 @@
       "max_devices_per_account": "undocumented",
       "max_devices_per_ip": "undocumented",
       "max_ips_per_account": "undocumented",
-      "notes": "Official download page lists Android and Windows; no Docker earning client validated."
+      "notes": "Android and Windows clients."
     },
     "ip_policy": {
       "residential": true,
@@ -41,19 +41,14 @@
     },
     "earnings": {
       "model": "per-GB (Coins)",
-      "min_payout": "3 Coins; confirm in dashboard",
+      "min_payout": "30,000 Coins ($3)",
       "payout_methods": [
         "undocumented"
       ],
       "avg_monthly_residential_usd": "unknown",
       "avg_monthly_datacenter_usd": "unknown"
     },
-    "compose_layer_reasoning": "Conservative residential classification.",
-    "install_limit_reasoning": "No documented caps.",
-    "recommendation": "evaluate",
-    "recommendation_reasoning": "Bandwidth sharing app. No official Docker image found. Needs research.",
     "confidence": "low",
-    "confidence_notes": "Current website and account links verified. Remains external-only; Docker integration, enrollment and payouts were not tested.",
     "sources": [
       "https://bytebenefit.io",
       "https://bytebenefit.io/faqs",
